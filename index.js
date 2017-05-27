@@ -14,11 +14,7 @@ class ChunkManifest {
         const register = (manifest, chunk) => {
           if (chunk.id in manifest) return manifest
 
-          if (!(typeof chunk.hasRuntime === 'function' && chunk.hasRuntime())) {
-            manifest[chunk.id] = template.applyPluginsWaterfall('asset-path', filename, { hash, chunk })
-          } else {
-            console.log(chunk)
-          }
+          manifest[chunk.id] = template.applyPluginsWaterfall('asset-path', filename, { hash, chunk })
 
           return chunk.chunks.reduce(register, manifest)
         }
