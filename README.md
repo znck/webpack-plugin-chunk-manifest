@@ -6,7 +6,7 @@
 
 [![npm](https://img.shields.io/npm/v/webpack-plugin-chunk-manifest.svg)](https://www.npmjs.com/package/webpack-plugin-chunk-manifest)
 [![webpack 2](https://img.shields.io/badge/webpack-2.x-brightgreen.svg)](https://webpack.js.org/)
-[![npm](https://img.shields.io/npm/dm/webpack-plugin-chunk-manifest.svg)]()
+[![npm downloads](https://img.shields.io/npm/dm/webpack-plugin-chunk-manifest.svg)](https://www.npmjs.com/package/webpack-plugin-chunk-manifest)
 
 </div>
 
