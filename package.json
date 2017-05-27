@@ -1,6 +1,6 @@
 {
   "name": "webpack-plugin-chunk-manifest",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Record chunks in a JSON file.",
   "main": "index.js",
   "repository": "https://github.com/znck/webpack-plugin-chunk-manifest",
